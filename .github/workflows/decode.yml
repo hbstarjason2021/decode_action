@@ -2,9 +2,9 @@ name: Decode JavaScript File
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
+  #push:
+  #  branches:
+  #    - main
 jobs:
   decode:
     runs-on: ubuntu-latest
